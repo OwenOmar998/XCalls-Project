@@ -28,6 +28,7 @@ A Vue 3 application developed using TypeScript and Vite, designed to handle VoIP
     VITE_SIP_PATH="***"
     VITE_SIP_USERNAME="***"
     VITE_SIP_PASSWORD="***"
+    VITE_SIP_DISPLAY_NAME="***"
    ```
 
 4. **Development Server**:

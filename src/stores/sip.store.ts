@@ -63,6 +63,7 @@ export const useSipStore = defineStore('sipStore', () => {
     },
     authorizationUsername: import.meta.env.VITE_SIP_USERNAME,
     authorizationPassword: import.meta.env.VITE_SIP_PASSWORD,
+    displayName: import.meta.env.VITE_SIP_DISPLAY_NAME,
     delegate: {
       onInvite: function (invitation: Invitation) {
         receiveCall(invitation);
